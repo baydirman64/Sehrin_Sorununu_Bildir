@@ -1,0 +1,18 @@
+{
+  "name": "sehrin-sorununu-bildir-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Backend + Mobile + Web Panel scripts",
+  "scripts": {
+    "setup:all": "npm --prefix backend install && npm --prefix mobile install && npm --prefix web-panel install",
+    "setup:frontend": "npm --prefix mobile install && npm --prefix web-panel install",
+
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:mobile": "npm --prefix mobile run start",
+    "dev:web": "npm --prefix web-panel run dev",
+
+    "start:backend": "npm --prefix backend run start",
+    "start:mobile": "npm --prefix mobile run start",
+    "start:web": "npm --prefix web-panel run dev"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+backend/uploads/
+dist/
+build/
+.expo/
+.expo-shared/
+web-build/
+Thumbs.db
+.DS_Store
